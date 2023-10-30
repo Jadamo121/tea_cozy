@@ -1,8 +1,56 @@
-html {
+body {
   font-family: Helvetica, Arial;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+
+.header img {
+  
+}
+
+.header ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.header li:not(:last-child) {
+  margin-right: 30px;
+  text-decoration: underline;
+}
+
+.header li:last-child {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.mission {
+  width: 1200px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*j7jeiu*_ga*ODEyNzQ5MTU5My4xNjk3ODk4NDQ4*_ga_3LRZM6TM9L*MTY5ODUzMTU4MS4zNS4xLjE2OTg1MzE2MjIuMTkuMC4w);
+  height: 700px;
+  margin: 69px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission div {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+
+.mission h2, h3 {
+  margin-top: 0px;
 }
