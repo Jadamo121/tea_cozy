@@ -7,6 +7,8 @@ body {
   text-align: center;
 }
 
+/* Header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,10 +16,12 @@ body {
   width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
+  margin-top: -70px;
+  background-color: black;
 }
 
 .header img {
-  
+  margin-left: 10px;
 }
 
 .header ul {
@@ -32,8 +36,10 @@ body {
 
 .header li:last-child {
   text-decoration: underline;
-  margin-right: 10px;
+  margin-right: 20px;
 }
+
+/* First Section */
 
 .mission {
   width: 1200px;
@@ -53,4 +59,28 @@ body {
 
 .mission h2, h3 {
   margin-top: 0px;
+}
+
+/* Second Section */
+
+.tea-of-the-month {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.monthly-tea {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.tea-type {
+  height: 200px;
+  width: 300px;
+  margin-right: -50px;
+}
+
+figcaption {
+  margin-top: 10px;
+  margin-left: 50px;
 }
